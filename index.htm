@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <!-- ...navbar... -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="https://www.zee5.com/images/ZEE5_logo.svg?ver=2.55.1" alt="" height="50px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">TV Shows</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Movie</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Menu
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Sports</a></li>
+                  <li><a class="dropdown-item" href="#">Premium</a></li>
+                  <li><a class="dropdown-item" href="#">News</a></li>
+                  <li><a class="dropdown-item" href="#">Web Series</a></li>
+                  <li><a class="dropdown-item" href="#">Eduaraa</a></li>
+                  <li><a class="dropdown-item" href="#">Live Tv</a></li>
+                  <li><a class="dropdown-item" href="#">Rent</a></li>
+                  <li><a class="dropdown-item" href="#">Music</a></li>
+                  <li><a class="dropdown-item" href="#">Kids</a></li>
+
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">LOGIN</button>
+              <button class="btn btn-outline-success" type="submit"><i class="fa-sharp fa-solid fa-crown"></i>BUY PLAN</button>
+              
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- SLIDE IMAGES -->
+      <section>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-0-1z5334341/cover/1920x7700afef957ddb4423da67a3271df5eebc3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-6-4z5311140/cover/1920x770c4bbe10b73e84fa9a4f22b4c3f25b24a.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-6-366/cover/1920x7704d75dfaa71fa4e7cabad1b083449f26364a1ee6756ce495d9d07b8a7d8ee17e4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-0-1z5343289/cover/1920x770976f8b6ef206400b9c981130b959a455.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-6-3392/cover/1920x77021b8121c0d0f4b74af3eaae37e005fe845a81bbc27c14685bdcac8a950ad3694.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <div class="poster">
+        <img src="https://akamaividz2.zee5.com/image/upload/w_1286,h_236,c_scale,f_webp,q_auto:eco/resources/0-1-6z5318955/homefeed_launcher_sticker/1312x312863a1456b2714f30a03db4462912497f.jpg" alt="">
+    </div>
+  <main>
+    <div class="title">
+    <h3>Tranding Near You</h3>
+    <a href="#" class="button">More <i class="fa-solid fa-greater-than"></i></a>
+  </div>
+    <section class="cards">
+        <div class="card">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_504,h_756,c_scale,f_webp,q_auto:eco/resources/0-0-1z5310540/portrait/1920x77037db6c3f1e294495b20d14ea464dbc85.jpg" class="card-img-top" alt="">
+            <div class="card-body ">
+              <h5 class="card-title">VALAVI
+              </h5>
+              <a href="#" class="btn btn-primary">WATCH NOW</a>
+              <a href="#" class="btn share "><i class="fa-solid fa-share"></i>Share</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5311140/portrait/1920x770c4bbe10b73e84fa9a4f22b4c3f25b24a.jpg" class="card-img-top" alt="">
+            <div class="card-body ">
+              <h5 class="card-title">Taj: Divided by Blood
+              </h5>
+              <a href="#" class="btn btn-primary">WATCH NOW</a>
+              <a href="#" class="btn share "><i class="fa-solid fa-share"></i>Share</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5299828/portrait/1920x770efdc749775ef489a80d42e389bfab0c7.jpg" class="card-img-top" alt="">
+            <div class="card-body ">
+              <h5 class="card-title">LOST
+              </h5>
+              <a href="#" class="btn btn-primary">WATCH NOW</a>
+              <a href="#" class="btn share "><i class="fa-solid fa-share"></i>Share</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5323147/portrait/1920x7708c64d9f25c11415795d018f463ccade3.jpg" class="card-img-top" alt="">
+            <div class="card-body ">
+              <h5 class="card-title">Am I Next
+              </h5>
+              <a href="#" class="btn btn-primary">WATCH NOW</a>
+              <a href="#" class="btn share "><i class="fa-solid fa-share"></i>Share</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5250012/portrait/19020india0e4320f6d050438bad1b2bf2e946b0dc.jpg" class="card-img-top" alt="">
+            <div class="card-body ">
+              <h5 class="card-title">India Lockdown
+              </h5>
+              <a href="#" class="btn btn-primary">WATCH NOW</a>
+              <a href="#" class="btn share "><i class="fa-solid fa-share"></i>Share</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5326731/portrait/1920x770edce41d56ac74882abacba11f8a6cc7d.jpg" class="card-img-top" alt="">
+            <div class="card-body ">
+              <h5 class="card-title">Kanjoos Makhichoos
+              </h5>
+              <a href="#" class="btn btn-primary">WATCH NOW</a>
+              <a href="#" class="btn share "><i class="fa-solid fa-share"></i>Share</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5363576/portrait/1920x770fab2039b585e4a32b05c67f825bcc974875199fb6540492dba7197af58268737.jpg" class="card-img-top" alt="" height="300px">
+            <div class="card-body ">
+              <h5 class="card-title">65
+              </h5>
+              <a href="#" class="btn btn-primary">WATCH NOW</a>
+              <a href="#" class="btn share "><i class="fa-solid fa-share"></i>Share</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-8-626/portrait/cover1920x770acae6c8291054cb9a4fee9cc6c74e93f.jpg" class="card-img-top" alt="">
+            <div class="card-body ">
+              <h5 class="card-title">Aaj Tak
+              </h5>
+              <a href="#" class="btn btn-primary">WATCH NOW</a>
+              <a href="#" class="btn share "><i class="fa-solid fa-share"></i>Share</a>
+            </div>
+          </div>
+        
+    </section>
+    <div class="title">
+      <h3> Top 10 Movies In India</h3>
+      <a href="#" class="button">More <i class="fa-solid fa-greater-than"></i></a>
+    </div>
+   
+    <section class="cards">
+        <div class="card">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5343289/portrait/1920x770976f8b6ef206400b9c981130b959a455.jpg" class="card-img-top" alt="">
+            <div class="card-body ">
+              <h5 class="card-title">U-Turn
+              </h5>
+              <a href="#" class="btn btn-primary">WATCH NOW</a>
+              <a href="#" class="btn share "><i class="fa-solid fa-share"></i>Share</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5351468/portrait/1920x77027a120ab66db4509b37c30d77390a825.jpg" class="card-img-top" alt="">
+            <div class="card-body ">
+              <h5 class="card-title">Viduthalai Part-1
+              </h5>
+              <a href="#" class="btn btn-primary">WATCH NOW</a>
+              <a href="#" class="btn share "><i class="fa-solid fa-share"></i>Share</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_224,h_336,c_scale,f_webp,q_auto:eco/resources/0-0-1z5326731/portrait/1920x770edce41d56ac74882abacba11f8a6cc7d.jpg" class="card-img-top" alt="">
+            <div class="card-body ">
+              <h5 class="card-title">Kanjoos Makhichoos 
+              </h5>
+              <a href="#" class="btn btn-primary">WATCH NOW</a>
+              <a href="#" class="btn share "><i class="fa-solid fa-share"></i>Share</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_224,h_336,c_scale,f_webp,q_auto:eco/resources/0-0-1z5299828/portrait/1920x770efdc749775ef489a80d42e389bfab0c7.jpg" class="card-img-top" alt="">
+            <div class="card-body ">
+              <h5 class="card-title">Lost
+              </h5>
+              <a href="#" class="btn btn-primary">WATCH NOW</a>
+              <a href="#" class="btn share "><i class="fa-solid fa-share"></i>Share</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_224,h_336,c_scale,f_webp,q_auto:eco/resources/0-0-1z5299796/portrait/1920x770d73448cbdb9f4525b4646e6f4df3fb08899fc23db9804a16aaf676777847b55b.jpg" class="card-img-top" alt="">
+            <div class="card-body ">
+              <h5 class="card-title">Acharya
+              </h5>
+              <a href="#" class="btn btn-primary">WATCH NOW</a>
+              <a href="#" class="btn share "><i class="fa-solid fa-share"></i>Share</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_224,h_336,c_scale,f_webp,q_auto:eco/resources/0-0-1z5334341/portrait/1920x7700afef957ddb4423da67a3271df5eebc3.jpg" class="card-img-top" alt="">
+            <div class="card-body ">
+              <h5 class="card-title">Mrs Undercover
+              </h5>
+              <a href="#" class="btn btn-primary">WATCH NOW</a>
+              <a href="#" class="btn share "><i class="fa-solid fa-share"></i>Share</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_224,h_336,c_scale,f_webp,q_auto:eco/resources/0-0-1z5301299/portrait/1920x770f5c57d4759124df5bbf870a68dfc6fb5.jpg" class="card-img-top" alt="" height="300px">
+            <div class="card-body ">
+              <h5 class="card-title">Salaam Venky
+              </h5>
+              <a href="#" class="btn btn-primary">WATCH NOW</a>
+              <a href="#" class="btn share "><i class="fa-solid fa-share"></i>Share</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_224,h_336,c_scale,f_webp,q_auto:eco/resources/0-0-1z5133458/portrait/1920x770a2e14981b1a949e3b0aaf7a9fabd2e99.jpg" class="card-img-top" alt="">
+            <div class="card-body ">
+              <h5 class="card-title">The Kashmir Files
+              </h5>
+              <a href="#" class="btn btn-primary">WATCH NOW</a>
+              <a href="#" class="btn share "><i class="fa-solid fa-share"></i>Share</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_224,h_336,c_scale,f_webp,q_auto:eco/resources/0-0-1z5227557/portrait/1920x7708f08c8ce5c4e4e2f926baf656b8653cc.jpg" class="card-img-top" alt="">
+            <div class="card-body ">
+              <h5 class="card-title">Karthikeya 2
+              </h5>
+              <a href="#" class="btn btn-primary">WATCH NOW</a>
+              <a href="#" class="btn share "><i class="fa-solid fa-share"></i>Share</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_224,h_336,c_scale,f_webp,q_auto:eco/resources/0-0-1z5323087/portrait/1920x7706e6c9c5475704f679a3c0b3d4913bcba.jpg" class="card-img-top" alt="">
+            <div class="card-body ">
+              <h5 class="card-title">Gol Gappe
+              </h5>
+              <a href="#" class="btn btn-primary">WATCH NOW</a>
+              <a href="#" class="btn share "><i class="fa-solid fa-share"></i>Share</a>
+            </div>
+          </div>
+        </section>
+           <div class="title">
+    <h3>Latest Hindi Episodes Free</h3>
+    <a href="#" class="button">More <i class="fa-solid fa-greater-than"></i></a>
+  </div>
+    <section class="cards">
+        <div class="card_tv">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5323517/list/000001961174fec2b76f41a2b2f6237777c26b46.jpg" class="card-img-top" alt="">
+            <h5>Kundali Bhagya</h5>
+            <h6>19 Mar</h6>
+            <div class="card-body_tv ">
+              <h5 class="card-title">Kundali Bhagya - March 19, 2023
+              </h5>
+              <a href="#" class="btn btn-primary">WATCH NOW</a>
+              <a href="#" class="btn share "><i class="fa-solid fa-share"></i>Share</a>
+            </div>
+          </div>
+          <div class="card_tv">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5323327/list/000000417a9bf0ae43fa49afbb9317d34173823a.jpg" class="card-img-top" alt="">
+            <h5>Kumkum Bhagya</h5>
+            <h6>19 Mar</h6>
+            <div class="card-body_tv ">
+              <h5 class="card-title">Kumkum Bhagya - March 19, 2023
+              </h5>
+              <a href="#" class="btn btn-primary">WATCH NOW</a>
+              <a href="#" class="btn share "><i class="fa-solid fa-share"></i>Share</a>
+            </div>
+          </div>
+          <div class="card_tv">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_407,h_229,c_scale,f_webp,q_auto:eco/resources/0-1-6z5323323/list/00000186643eb0282be74635b52d32d410c31ac7.jpg" class="card-img-top" alt="">
+            <h5>Bhagya Lakshmi</h5>
+            <h6>19 Mar</h6>
+            <div class="card-body_tv ">
+              <h5 class="card-title">Rishi Dreams about Lakshmi
+              </h5>
+              <a href="#" class="btn btn-primary">WATCH NOW</a>
+              <a href="#" class="btn share "><i class="fa-solid fa-share"></i>Share</a>
+            </div>
+          </div>
+          <div class="card_tv">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_407,h_229,c_scale,f_webp,q_auto:eco/resources/0-1-6z5323428/list/0000022139ebe7fedbff4df8ae5d7234b8a8fc55.jpg" class="card-img-top" alt="">
+            <h5>Meet</h5>
+            <h6>19 Mar</h6>
+            <div class="card-body_tv ">
+              <h5 class="card-title">Meet - March 19, 2023
+              </h5>
+              <a href="#" class="btn btn-primary">WATCH NOW</a>
+              <a href="#" class="btn share "><i class="fa-solid fa-share"></i>Share</a>
+            </div>
+          </div>
+          <div class="card_tv">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_407,h_229,c_scale,f_webp,q_auto:eco/resources/0-1-6z5329195/list/000002554b54cd7e556f43298e8b56cf519e32d2.jpg" class="card-img-top" alt="">
+            <h5>Pyar Ka Pehla Naam</h5>
+            <h6>19 Mar</h6>
+            <div class="card-body_tv">
+              <h5 class="card-title">Pyar Ka Pehla Naam: Radha Mohan - March 19, 2023
+              </h5>
+              <a href="#" class="btn btn-primary">WATCH NOW</a>
+              <a href="#" class="btn share "><i class="fa-solid fa-share"></i>Share</a>
+            </div>
+          </div>
+          <div class="card_tv">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_407,h_229,c_scale,f_webp,q_auto:eco/resources/0-1-6z5323475/list/00000097264aead01aab43938342cb9b124de345.jpg" class="card-img-top" alt="">
+            <h5>Main Hoon Aparajita</h5>
+            <h6>19 Mar</h6>
+            <div class="card-body_tv">
+              <h5 class="card-title">Main Hoon Aparajita - March 19, 2023
+              </h5>
+              <a href="#" class="btn btn-primary">WATCH NOW</a>
+              <a href="#" class="btn share "><i class="fa-solid fa-share"></i>Share</a>
+            </div>
+          </div>
+          <div class="card_tv">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_407,h_229,c_scale,f_webp,q_auto:eco/resources/0-1-6z5323648/list/000001616591405043b947c29adee9c64781bc43.jpg " class="card-img-top" alt="">
+            <h5>Maitree</h5>
+            <h6>19 Mar</h6>
+            <div class="card-body_tv">
+              <h5 class="card-title">Nandini Takes Ashish's Name
+              </h5>
+              <a href="#" class="btn btn-primary">WATCH NOW</a>
+              <a href="#" class="btn share "><i class="fa-solid fa-share"></i>Share</a>
+            </div>
+          </div>
+          <div class="card_tv">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_407,h_229,c_scale,f_webp,q_auto:eco/resources/0-1-6z5329194/list/0000020994fda8eb957c49fda9ba1a30724a57fd.jpg" class="card-img-top" alt="">
+            <h5>Rabb Se Hai Dua</h5>
+            <h6>19 Mar</h6>
+            <div class="card-body_tv">
+              <h5 class="card-title">Rabb Se Hai Dua - March 19, 2023
+              </h5>
+              <a href="#" class="btn btn-primary">WATCH NOW</a>
+              <a href="#" class="btn share "><i class="fa-solid fa-share"></i>Share</a>
+            </div>
+          </div>
+    </section>
+  </section>
+  <div class="title">
+<h3>Latest Marathi Episodes Free</h3>
+<a href="#" class="button">More <i class="fa-solid fa-greater-than"></i></a>
+</div>
+<section class="cards">
+<div class="card_tv">
+   <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5323517/list/000001961174fec2b76f41a2b2f6237777c26b46.jpg" class="card-img-top" alt="">
+   <h5>Kundali Bhagya</h5>
+   <h6>19 Mar</h6>
+   <div class="card-body_tv ">
+     <h5 class="card-title">Kundali Bhagya - March 19, 2023
+     </h5>
+     <a href="#" class="btn btn-primary">WATCH NOW</a>
+     <a href="#" class="btn share "><i class="fa-solid fa-share"></i>Share</a>
+   </div>
+ </div>
+ <div class="card_tv">
+   <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5323327/list/000000417a9bf0ae43fa49afbb9317d34173823a.jpg" class="card-img-top" alt="">
+   <h5>Kumkum Bhagya</h5>
+   <h6>19 Mar</h6>
+   <div class="card-body_tv ">
+     <h5 class="card-title">Kumkum Bhagya - March 19, 2023
+     </h5>
+     <a href="#" class="btn btn-primary">WATCH NOW</a>
+     <a href="#" class="btn share "><i class="fa-solid fa-share"></i>Share</a>
+   </div>
+ </div>
+ <div class="card_tv">
+   <img src="https://akamaividz2.zee5.com/image/upload/w_407,h_229,c_scale,f_webp,q_auto:eco/resources/0-1-6z5323323/list/00000186643eb0282be74635b52d32d410c31ac7.jpg" class="card-img-top" alt="">
+   <h5>Bhagya Lakshmi</h5>
+   <h6>19 Mar</h6>
+   <div class="card-body_tv ">
+     <h5 class="card-title">Rishi Dreams about Lakshmi
+     </h5>
+     <a href="#" class="btn btn-primary">WATCH NOW</a>
+     <a href="#" class="btn share "><i class="fa-solid fa-share"></i>Share</a>
+   </div>
+ </div>
+ <div class="card_tv">
+   <img src="https://akamaividz2.zee5.com/image/upload/w_407,h_229,c_scale,f_webp,q_auto:eco/resources/0-1-6z5323428/list/0000022139ebe7fedbff4df8ae5d7234b8a8fc55.jpg" class="card-img-top" alt="">
+   <h5>Meet</h5>
+   <h6>19 Mar</h6>
+   <div class="card-body_tv ">
+     <h5 class="card-title">Meet - March 19, 2023
+     </h5>
+     <a href="#" class="btn btn-primary">WATCH NOW</a>
+     <a href="#" class="btn share "><i class="fa-solid fa-share"></i>Share</a>
+   </div>
+ </div>
+ <div class="card_tv">
+   <img src="https://akamaividz2.zee5.com/image/upload/w_407,h_229,c_scale,f_webp,q_auto:eco/resources/0-1-6z5329195/list/000002554b54cd7e556f43298e8b56cf519e32d2.jpg" class="card-img-top" alt="">
+   <h5>Pyar Ka Pehla Naam</h5>
+   <h6>19 Mar</h6>
+   <div class="card-body_tv">
+     <h5 class="card-title">Pyar Ka Pehla Naam: Radha Mohan - March 19, 2023
+     </h5>
+     <a href="#" class="btn btn-primary">WATCH NOW</a>
+     <a href="#" class="btn share "><i class="fa-solid fa-share"></i>Share</a>
+   </div>
+ </div>
+ <div class="card_tv">
+   <img src="https://akamaividz2.zee5.com/image/upload/w_407,h_229,c_scale,f_webp,q_auto:eco/resources/0-1-6z5323475/list/00000097264aead01aab43938342cb9b124de345.jpg" class="card-img-top" alt="">
+   <h5>Main Hoon Aparajita</h5>
+   <h6>19 Mar</h6>
+   <div class="card-body_tv">
+     <h5 class="card-title">Main Hoon Aparajita - March 19, 2023
+     </h5>
+     <a href="#" class="btn btn-primary">WATCH NOW</a>
+     <a href="#" class="btn share "><i class="fa-solid fa-share"></i>Share</a>
+   </div>
+ </div>
+ <div class="card_tv">
+   <img src="https://akamaividz2.zee5.com/image/upload/w_407,h_229,c_scale,f_webp,q_auto:eco/resources/0-1-6z5323648/list/000001616591405043b947c29adee9c64781bc43.jpg " class="card-img-top" alt="">
+   <h5>Maitree</h5>
+   <h6>19 Mar</h6>
+   <div class="card-body_tv">
+     <h5 class="card-title">Nandini Takes Ashish's Name
+     </h5>
+     <a href="#" class="btn btn-primary">WATCH NOW</a>
+     <a href="#" class="btn share "><i class="fa-solid fa-share"></i>Share</a>
+   </div>
+ </div>
+ <div class="card_tv">
+   <img src="https://akamaividz2.zee5.com/image/upload/w_407,h_229,c_scale,f_webp,q_auto:eco/resources/0-1-6z5329194/list/0000020994fda8eb957c49fda9ba1a30724a57fd.jpg" class="card-img-top" alt="">
+   <h5>Rabb Se Hai Dua</h5>
+   <h6>19 Mar</h6>
+   <div class="card-body_tv">
+     <h5 class="card-title">Rabb Se Hai Dua - March 19, 2023
+     </h5>
+     <a href="#" class="btn btn-primary">WATCH NOW</a>
+     <a href="#" class="btn share "><i class="fa-solid fa-share"></i>Share</a>
+   </div>
+ </div>
+</section>
+</main>
+<footer class="footer-section">
+  <div class="container">
+      <div class="footer-cta pt-5 pb-5">
+          <div class="row">
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <div class="cta-text">
+                          <h4>Download Apps</h4>
+                          <span><img src="https://www.zee5.com/images/play_store.png?ver=3.5.1" alt=""></span>
+                          <span><img src="https://www.zee5.com/images/app_store.png?ver=3.5.1" alt=""></span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <div class="cta-text">
+                        <ul class="infosec">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Expert Team</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Latest News</a></li>
+                      </ul>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="far fa-envelope-open"></i>
+                      <div class="cta-text">
+                          <h4>Mail us</h4>
+                          <span>mail@info.com</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="footer-content pt-5 pb-5">
+          <div class="row">
+              <div class="col-xl-4 col-lg-4 mb-50">
+                  <div class="footer-widget">
+                      <div class="footer-logo">
+                          <a href="index.html"><img src="https://www.zee5.com/images/ZEE5_logo.svg?ver=3.5.1" class="img-fluid" alt="logo"></a>
+                      </div>
+                      <div class="footer-text">
+                          <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                          elit,Lorem ipsum dolor sit amet.</p>
+                      </div>
+                      <div class="footer-social-icon">
+                          <span>Follow us</span>
+                          <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                          <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                          <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                  <div class="footer-widget">
+                      <div class="footer-widget-heading">
+                          <h3>Useful Links</h3>
+                      </div>
+                      <ul>
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#">about</a></li>
+                          <li><a href="#">services</a></li>
+                          <li><a href="#">portfolio</a></li>
+                          <li><a href="#">Contact</a></li>
+                      </ul>
+                      
+                  </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                  <div class="footer-widget">
+                      <div class="footer-widget-heading">
+                          <h3>Subscribe</h3>
+                      </div>
+                      <div class="footer-text mb-25">
+                          <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                      </div>
+                      <div class="subscribe-form">
+                          <form action="#">
+                              <input type="text" placeholder="Email Address">
+                              <button><i class="fab fa-telegram-plane"></i></button>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="copyright-area">
+      <div class="container">
+          <div class="row">
+              <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                  <div class="copyright-text">
+                      <p>Copyright &copy; 2018, All Right Reserved <a href="https://codepen.io/anupkumar92/">Anup</a></p>
+                  </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                  <div class="footer-menu">
+                      <ul>
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#">Terms</a></li>
+                          <li><a href="#">Privacy</a></li>
+                          <li><a href="#">Policy</a></li>
+                          <li><a href="#">Contact</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+    
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
